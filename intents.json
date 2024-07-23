@@ -1,0 +1,34 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns":["hi","hello","yo","greetings","what's up","how it is going","good day"],
+     "responses":["hello!","hey!","how can i help you?"]
+    },
+    {"tag": "goodbye",
+     "patterns":["goodbye","see you later","bye","cao","see ya"],
+     "responses":["Goodbye! Have a great day,and enjoy your movie!", "Thank you for chatting with us. Goodbye!", "Goodbye! If you have any more questions, feel free to ask anytime.", "Goodbye! We hope to see you at the cinema soon."]
+    },
+    {"tag": "hours",
+     "patterns":["what are the hours","what are the opening hours","what are the opening times"],
+     "responses":["The cinema is open from 10:00 am to 01:00 am"]
+    },
+    {"tag": "movies",
+     "patterns":["what movies are playing","what movies are showing","what movies are on"],
+     "responses":["you can check our website to know the films streaming today"]
+    },
+    {"tag": "booking",
+     "patterns":["how can i book a ticket","how can i book a seat","how can i book a show","how can i book a movie"],
+     "responses":[ "You can book tickets online through our website, mobile app, or at the cinema's box office."]
+    },
+    {"tag": "location",
+     "patterns":["where is the cinema","where is the cinema located"],
+     "responses":["The cinema is located at 123 Main Street, Anytown, USA"]
+    },
+    {"tag": "price",
+     "patterns":["how much is a ticket","What are the ticket prices?"],
+     "responses":["Ticket prices vary depending on the movie, time, and seating type. You can find the exact prices on our website or app."]
+    },
+    {"tag": "discounts",
+     "patterns":["do you offer any discounts","do you have any offers"],
+     "responses":["Yes, we offer discounts for students, seniors, and members. Please visit our website for more details on available discounts."]
+    }
+]}
